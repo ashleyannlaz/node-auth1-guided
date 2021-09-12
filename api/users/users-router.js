@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const {add} = require('../users/users-model')
+
 
 // #STEP5 import auth
 const { restricted } = require('../auth/auth-middleware');
